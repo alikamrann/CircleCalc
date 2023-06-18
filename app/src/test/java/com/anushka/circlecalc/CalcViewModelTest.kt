@@ -33,6 +33,6 @@ class CalcViewModelTest{
     fun calculateCircumference_radiusSent_updateLiveData(){
         calcViewModel.calculateCircumference(1.0)
         val result = calcViewModel.circumference.value
-        assertThat(result).isEqualTo("6.28 ")
+        assertThat(result).isEqualTo("6.28")
     }
 }
